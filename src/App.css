@@ -1,10 +1,17 @@
 .App {
   text-align: center;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: blue;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.header {
+  background-color: green;
 }
 
 @media (prefers-reduced-motion: no-preference) {
