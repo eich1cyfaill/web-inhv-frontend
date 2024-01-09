@@ -1,13 +1,13 @@
-
+import '../../src/css/Header.css'
 
 const Header = () => {
   return (
-    <div className="header">
+    <header className="header">
         <div>
             <button>Dashboard</button>
             <button>Test Button</button>
         </div>
-    </div>
+    </header>
   );
 }
 
