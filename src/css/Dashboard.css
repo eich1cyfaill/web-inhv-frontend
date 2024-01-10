@@ -3,14 +3,24 @@
     background-color: green;
     z-index: 11;
     overflow: hidden;
+    align-items: center;
 }
 
 .dashboard {
   cursor: move;
   z-index: 10;
-  background-color: #2196F3;
+  background-color: #282c34;
   position: absolute;
   text-align: center;
   vertical-align: middle;
-  width: 820px;
+  width: 8820px;
+  height: 8820px;
+  overflow: hidden;
+  transform: translate(-40%, -45%);
+}
+
+.nodes {
+  background-color: aqua;
+  position: relative;
+  
 }

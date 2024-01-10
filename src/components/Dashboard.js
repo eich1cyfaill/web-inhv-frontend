@@ -1,9 +1,7 @@
 import React, { useEffect } from 'react';
 import '../../src/css/Dashboard.css';
-import '../util/dragging';
-
-
-
+import {dragElement} from '../util/dragging';
+import Node from './Node'
 
 const Dashboard = () => {
 
@@ -14,14 +12,11 @@ const Dashboard = () => {
     return (
         <div className="container">
             <div className="dashboard" id="dhsbrd">
-                Dashboard
+                    <Node />        
             </div>
         </div>
     );
   }
-  
 
-
-  
   export default Dashboard;
   
